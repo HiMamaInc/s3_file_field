@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.version       = S3FileField::VERSION
   gem.license       = 'MIT'
 
-  gem.add_dependency 'rails', '4.1.16' # FIXME: Remove version dependency to test , '>= 3.2'
+  gem.add_dependency 'rails', '4.2.11.1' # FIXME: Remove version dependency to test , '>= 3.2'
   gem.add_dependency 'coffee-rails' # FIXME: Remove version dependency to test , '>= 3.2.1'
   gem.add_dependency 'sass-rails' # FIXME: Remove version dependency to test , '>= 3.2.5'
   gem.add_dependency 'jquery-fileupload-rails', '~> 0.4.1'
